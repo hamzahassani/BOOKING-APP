@@ -3,14 +3,16 @@ package main
 import (
 	"fmt"
 
-	"rsc.io/quote"
+	"booking-app/morestrings"
 )
 
 func main() {
-	fmt.Println(quote.Glass())
+	/*fmt.Println(quote.Glass())
 	var userName string
 	fmt.Println("hello sayed")
 	fmt.Scan(&userName)
 	fmt.Printf("This is  %v'code", userName)
+	*/
+	fmt.Println(morestrings.ReverseRunes("table"))
 
 }
