@@ -17,6 +17,10 @@ func main() {
 	*/
 	fmt.Println(morestrings.ReverseRunes("table"))
 	fmt.Println(greetings.Hello("sayed"))
+<<<<<<< Updated upstream
 	fmt.Println("sayed is here girls")
+=======
+	fmt.Println("sayed is here now")
+>>>>>>> Stashed changes
 
 }
