@@ -4,6 +4,8 @@ import (
 	"fmt"
 
 	"booking-app/morestrings"
+
+	"booking-app/greetings"
 )
 
 func main() {
@@ -14,5 +16,6 @@ func main() {
 	fmt.Printf("This is  %v'code", userName)
 	*/
 	fmt.Println(morestrings.ReverseRunes("table"))
+	fmt.Println(greetings.Hello("sayed"))
 
 }
