@@ -17,6 +17,6 @@ func main() {
 	*/
 	fmt.Println(morestrings.ReverseRunes("table"))
 	fmt.Println(greetings.Hello("sayed"))
-	fmt.Println("sayed is here")
+	fmt.Println("sayed is here girls")
 
 }
