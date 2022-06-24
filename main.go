@@ -15,6 +15,7 @@ func main() {
 	fmt.Scan(&userName)
 	fmt.Printf("This is  %v'code", userName)
 	*/
+	fmt.Println(greetings.Sum(3))
 	fmt.Println(morestrings.ReverseRunes("table"))
 	fmt.Println(greetings.Hello("sayed"))
 	fmt.Println("sayed is here girls")
