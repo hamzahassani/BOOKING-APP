@@ -18,6 +18,6 @@ func main() {
 	fmt.Println(greetings.Sum(3))
 	fmt.Println(morestrings.ReverseRunes("table"))
 	fmt.Println(greetings.Hello("sayed"))
-	fmt.Println("sayed is here girlssss")
+	fmt.Println("sayed is here girlss")
 
 }
