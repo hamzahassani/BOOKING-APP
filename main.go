@@ -1,23 +1,24 @@
 package main
 
-import (
-	"fmt"
-
-	"booking-app/morestrings"
-
-	"booking-app/greetings"
-)
+import "fmt"
 
 func main() {
-	/*fmt.Println(quote.Glass())
-	var userName string
-	fmt.Println("hello sayed")
-	fmt.Scan(&userName)
-	fmt.Printf("This is  %v'code", userName)
-	*/
-	fmt.Println(greetings.Sum(3))
-	fmt.Println(morestrings.ReverseRunes("table"))
-	fmt.Println(greetings.Hello("sayed"))
-	fmt.Println("sayed is here girlss")
+
+	var notes []int
+	notes = append(notes, 1, 2, 3)
+	for _, v := range notes {
+		println(v)
+	}
+
+	m := map[string]int{
+		"hello": 3,
+		"test":  5,
+	}
+
+	v, ok := m["test"]
+	fmt.Println(v, ok)
+	for k, v := range m {
+		println(k, v)
+	}
 
 }
