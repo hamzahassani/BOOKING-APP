@@ -19,6 +19,7 @@ func main() {
 	fmt.Println(v, ok)
 	for k, v := range m {
 		println(k, v)
+		println(k, v)
 	}
 
 }
