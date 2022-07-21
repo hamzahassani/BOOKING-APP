@@ -53,4 +53,23 @@ func main() {
 	sayed.name = "sayed"
 	fmt.Println((sayed))
 
+	// Anonymous structs
+	var persons struct {
+		name string
+		age  int
+		pet  string
+	}
+	persons.name = "bob"
+	persons.age = 50
+	persons.pet = "dog"
+	fmt.Println((persons))
+	pet := struct {
+		name string
+		kind string
+	}{
+		name: "Fido",
+		kind: "dog",
+	}
+	fmt.Println((pet))
+
 }
