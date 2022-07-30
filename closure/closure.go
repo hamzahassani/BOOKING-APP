@@ -2,7 +2,7 @@ package closure
 
 func Createclosure(a int) func() int {
 	inc := func() int {
-		gh := "test"
+		c := 12
 		a = a + 1
 		return a
 	}
